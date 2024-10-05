@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "ng serve": "ng serve",
     "start": "npm run build && wrangler pages dev dist/cloudflare --compatibility-date=2024-09-25 --experimental-local",
     "build": "ng build && npm run process",
     "watch": "ng build --watch --configuration development",
